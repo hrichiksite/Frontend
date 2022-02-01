@@ -1,6 +1,6 @@
-FROM node:lts
+FROM node:12.18.0
 
-WORKDIR /app/deploy
+WORKDIR /usr/src/app
 
 COPY . .
 
